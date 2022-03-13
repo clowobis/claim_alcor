@@ -13,8 +13,8 @@ def claim():
     payload = [
             {
                 'args': {
-                    "claimer": "#",
-                    "drop_id": "#",
+                    "claimer": "anchor_acc",
+                    "drop_id": "11111",
                     "claim_amount": '1',
                     "intended_delphi_median": "0",
                     "referrer": "",
@@ -23,7 +23,7 @@ def claim():
                 "account": "neftyblocksd",
                 "name": "claimdrop",
                 "authorization": [{
-                    "actor": "#",
+                    "actor": "anchor_acc",
                     "permission": "active",
                 }],
             }
