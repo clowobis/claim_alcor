@@ -1,13 +1,14 @@
 import eospy.cleos
 import eospy.keys
 
+ce = eospy.cleos.Cleos(url=r_nodes())
+anchkey = eospy.keys.EOSKey("key")
+
+
 def r_nodes():
     node_list = open('nodes.txt').read().splitlines()
     cnode = random.choice(node_list)
     return (cnode)
-
-ce = eospy.cleos.Cleos(url=r_nodes())
-anchkey = eospy.keys.EOSKey("key")
 
 def claim():
     payload = [
