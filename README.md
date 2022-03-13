@@ -1,4 +1,6 @@
 # claim_alcor
 Wax/Nefty claim drops
 
-pip install eospy
+You need only Eospy library
+
+**pip install eospy**
